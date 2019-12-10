@@ -316,8 +316,36 @@ ul {
   .top-of-pic {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     width: 95%;
+    margin-left: 5%;
+  }
+  .features {
+    width: 95%;
+  }
+
+  .about {
+    width: 95%;
+  }
+
+  .bottom-of-pic {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 5%;
+  }
+  .services {
+    width: 95%;
+  }
+
+  .product {
+    width: 95%;
+  }
+
+  .vision {
+    width: 95%;
+  }
+
+  footer {
     margin-left: 5%;
   }
 }
