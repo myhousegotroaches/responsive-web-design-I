@@ -1,3 +1,351 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
 
+.top-section {
+  display: flex;
+  align-items: center;
+  border: 0px solid black;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+.top-section a {
+  text-decoration: none;
+  color: grey;
+  border: 0px solid black;
+  font-size: 22px;
+}
+
+.top-section div {
+  display: flex;
+  border: 0px solid black;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+.title-getstarted {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.title-getstarted h1 {
+  font-size: 100px;
+}
+
+.title-getstarted p {
+  font-size: 28px;
+  border: 2px solid black;
+  width: 50%;
+  padding: 5px;
+  margin-left: 20%;
+}
+
+.top-of-pic {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.features {
+  width: 40%;
+  font-size: 20px;
+}
+
+.about {
+  width: 40%;
+  font-size: 20px;
+}
+
+.middle-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-of-pic {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+
+.services {
+  width: 30%;
+}
+
+.product {
+  width: 30%;
+}
+
+.vision {
+  width: 30%;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+footer h1 {
+  font-size: 10px;
+}
+
+/* Services Page CSS - S.P.*/
+
+/*  top section */
+
+.header-image-of-services-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.under-header-pic {
+  width: 70%;
+  margin-left: 20%;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.under-header-pic h1 {
+  font-size: 30px;
+}
+
+/* middle section, one with blocks - S.P.*/
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+#main div {
+  width: 70%;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.boxes-in-main-section {
+  border: 2px solid black;
+  margin-bottom: 8%;
+  padding: 4%;
+  background-color: #d0c8cd;
+}
+
+.learn-button {
+  border: 1px solid black;
+  padding: 2%;
+  text-align: center;
+  width: 40%;
+  margin: 4%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.boxes-in-main-section h2 {
+  font-size: 20px;
+}
+
+.boxes-in-main-section p {
+  font-size: 20px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.bottom-try {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+.bottom-text {
+  width: 50%;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.final-picture {
+  margin-left: 2%;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+/* tablet view */
+
+@media (max-width: 800px) {
+  .big-logo {
+    display: none;
+  }
+
+  .top-section {
+    display: flex;
+    flex-flow: column-reverse wrap;
+  }
+
+  .top-section div {
+    width: 90%;
+  }
+
+  .logo {
+    margin-bottom: 4%;
+  }
+
+  .title-getstarted {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin-left: 10%;
+  }
+
+  .title-getstarted h1 {
+    margin-bottom: 3%;
+  }
+
+  .title-getstarted p {
+    margin-left: 25%;
+    margin-bottom: 4%;
+  }
+
+  .top-of-pic {
+    margin-bottom: 5%;
+  }
+
+  .bottom-of-pic h2 {
+    margin: 5% 0;
+  }
+
+  .bottom-of-pic {
+    font-size: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer {
+    margin-left: 2%;
+  }
+
+  .copyright {
+    margin-right: 8%;
+  }
+
+  .top-of-pic {
+    font-size: 100%;
+  }
+
+  .features {
+    font-size: 100%;
+  }
+
+  .features h2 {
+    margin-bottom: 5%;
+  }
+
+  .about {
+    font-size: 100%;
+  }
+
+  .about h2 {
+    margin-bottom: 5%;
+  }
+}
+
+/* mobile view */
+
+@media (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .top-section div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .top-section div a {
+    border-top: 1px solid black;
+  }
+
+  .top-section div a .border-bottom {
+    border-bottom: 1px solid black;
+  }
+
+  .title-getstarted h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .title-getstarted p {
+    border: 1px solid black;
+    width: 70%;
+    margin-left: 40px;
+  }
+
+  .top-of-pic {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 5%;
+  }
+  .features {
+    width: 95%;
+  }
+
+  .about {
+    width: 95%;
+  }
+
+  .bottom-of-pic {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 5%;
+  }
+  .services {
+    width: 95%;
+  }
+
+  .product {
+    width: 95%;
+  }
+
+  .vision {
+    width: 95%;
+  }
+
+  footer {
+    margin-left: 5%;
+  }
+}
